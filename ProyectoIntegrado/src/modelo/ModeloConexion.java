@@ -8,7 +8,7 @@ public class ModeloConexion {
 
 	public ModeloConexion() {
 		driver = "com.mysql.jdbc.Driver";
-		url = "jdbc:mysql://localhost:3306/seguridad_social";
+		url = "jdbc:mysql://localhost/seguridad_social";
 		user = "root";
 		password = "";
 	}

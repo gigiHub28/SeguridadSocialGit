@@ -56,7 +56,6 @@ public class ConexionBD {
 			e.printStackTrace();
 			return false;
 		}
-
 	}
 
 	public boolean existeUsusuario(String sql) {
@@ -65,10 +64,8 @@ public class ConexionBD {
 			result = miStatement.executeQuery(sql);
 			if (result.next()) {
 
-				System.out.println("entroo");
 				return true;
 			}
-			System.out.println("hola");
 			return false;
 
 		} catch (SQLException e) {

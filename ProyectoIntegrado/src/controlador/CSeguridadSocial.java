@@ -9,7 +9,7 @@ public class CSeguridadSocial {
 
 	private static VistaRegistro miRegistro = new VistaRegistro();
 	private static ConexionBD miConexion = new ConexionBD();
-	private static Hash miHash = new Hash();
+	private static Auxiliar miHash = new Auxiliar();
 	private static Usuario miUsuario = new Usuario();
 	private static ModeloConsultas consultas = new ModeloConsultas();
 
