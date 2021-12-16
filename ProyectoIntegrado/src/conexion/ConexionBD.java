@@ -26,7 +26,7 @@ public class ConexionBD {
 	public void crearConexion() {
 		try {
 			// cargar el driver
-			Class.forName(miModelo.getDriver());
+			Class.forName("com.mysql.jdbc.Driver");
 
 			// establecemos la conexion con la BD
 			miConexion = DriverManager.getConnection(miModelo.getUrl(), miModelo.getUsuario(),

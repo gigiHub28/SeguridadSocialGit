@@ -25,8 +25,8 @@ public class MVistaRegistro {
 		lblTitle = "CREAR REGISTRO";
 		btnRegistro = "Registrar";
 		lblConfirmacion = "CONFIRMAR CONTRASEÑA";
-		boxEmpresario = "Empresario";
-		boxFuncionario = "Funcionario";
+		boxEmpresario = "empresario";
+		boxFuncionario = "funcionario";
 		rutaIcono = "../resources//logo2.png";
 	}
 

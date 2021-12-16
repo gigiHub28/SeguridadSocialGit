@@ -53,27 +53,27 @@ public class VistaRegistro extends JFrame {
 
 		JLabel lblNewLabel_1 = new JLabel(miModelo.getLblApellidos());
 		lblNewLabel_1.setFont(new Font("Tahoma", Font.PLAIN, 15));
-		lblNewLabel_1.setBounds(72, 174, 85, 13);
+		lblNewLabel_1.setBounds(72, 166, 85, 13);
 		contentPane.add(lblNewLabel_1);
 
 		txtApells = new JTextField();
-		txtApells.setBounds(279, 173, 260, 19);
+		txtApells.setBounds(279, 165, 260, 19);
 		contentPane.add(txtApells);
 		txtApells.setColumns(10);
 
 		JLabel lblNewLabel_2 = new JLabel(miModelo.getLblNomUser());
 		lblNewLabel_2.setFont(new Font("Tahoma", Font.PLAIN, 15));
-		lblNewLabel_2.setBounds(72, 220, 161, 13);
+		lblNewLabel_2.setBounds(72, 203, 161, 13);
 		contentPane.add(lblNewLabel_2);
 
 		txtNombreUsu = new JTextField();
-		txtNombreUsu.setBounds(279, 219, 260, 19);
+		txtNombreUsu.setBounds(279, 202, 260, 19);
 		contentPane.add(txtNombreUsu);
 		txtNombreUsu.setColumns(10);
 
 		JLabel lblNewLabel_3 = new JLabel(miModelo.getLblPassw());
 		lblNewLabel_3.setFont(new Font("Tahoma", Font.PLAIN, 15));
-		lblNewLabel_3.setBounds(72, 261, 149, 19);
+		lblNewLabel_3.setBounds(72, 236, 149, 19);
 		contentPane.add(lblNewLabel_3);
 
 		JLabel lblNewLabel_4 = new JLabel(miModelo.getLblCorreo());
@@ -94,7 +94,7 @@ public class VistaRegistro extends JFrame {
 		JLabel lblNewLabel_6 = new JLabel(miModelo.getLblTitle());
 		lblNewLabel_6.setForeground(Color.DARK_GRAY);
 		lblNewLabel_6.setFont(new Font("Monospaced", Font.BOLD, 30));
-		lblNewLabel_6.setBounds(332, 72, 161, 49);
+		lblNewLabel_6.setBounds(279, 72, 267, 49);
 		contentPane.add(lblNewLabel_6);
 
 		tipoUsu = new JComboBox();
@@ -115,7 +115,7 @@ public class VistaRegistro extends JFrame {
 		
 		JLabel lblNewLabel_8 = new JLabel(miModelo.getLblConfirmacion());
 		lblNewLabel_8.setFont(new Font("Tahoma", Font.PLAIN, 15));
-		lblNewLabel_8.setBounds(72, 280, 182, 13);
+		lblNewLabel_8.setBounds(72, 275, 182, 13);
 		contentPane.add(lblNewLabel_8);
 		
 		contra = new JPasswordField();
@@ -123,7 +123,7 @@ public class VistaRegistro extends JFrame {
 		contentPane.add(contra);
 		
 		contraConfirmar = new JPasswordField();
-		contraConfirmar.setBounds(279, 279, 260, 19);
+		contraConfirmar.setBounds(279, 274, 260, 19);
 		contentPane.add(contraConfirmar);
 	}
 
